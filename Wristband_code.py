@@ -1,6 +1,14 @@
 #This is where the code for the wristband goes
-while distance <= alert_range:
-  if distance <= concern_range:
+distance = 
+concern_distance = 
+output_no_concern = 
+alert_distance = 
+output_concern = 
+output_alert = 
+while distance >= 0:
+  if distance >= concern_distance:
+    output_no_concern;
+  elseif distance > alert_distance:
     output_concern
   else:
-    outut_alert
+    output_alert
