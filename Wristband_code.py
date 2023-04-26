@@ -7,17 +7,20 @@ ultrasonic = DistanceSensor(echo=4, trigger=7)
 while true:
   distance = ultrasonic.distance
   concern_distance = 122
-  output_no_concern = 
-  alert_distance = 82
-  output_concern = 
-  output_alert = 
+  def output_no_concern():
+    
+  alert_distance = 80
+  def output_concern():
+    
+  def output_alert():
+    
 
   
 #Output/post-video processing
 while distance >= 0:
   if distance >= concern_distance:
-    output_no_concern;
+    output_no_concern();
   elseif distance > alert_distance:
-    output_concern
+    output_concern();
   else:
-    output_alert
+    output_alert();
