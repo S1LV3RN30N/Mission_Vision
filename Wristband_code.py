@@ -6,9 +6,9 @@ from gpiozero import DistanceSensor
 ultrasonic = DistanceSensor(echo=4, trigger=7)
 while true:
   distance = ultrasonic.distance
-  concern_distance = 
+  concern_distance = 122
   output_no_concern = 
-  alert_distance = 
+  alert_distance = 82
   output_concern = 
   output_alert = 
 
