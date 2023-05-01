@@ -25,3 +25,7 @@ https://github.com/Shiloli-r/sonar-radar-sensor
 Raspberry Pi foundation
 
 https://projects.raspberrypi.org/en/projects/see-like-a-bat/9
+
+gavinlyonsrepo
+
+https://github.com/gavinlyonsrepo/RpiMotorLib
